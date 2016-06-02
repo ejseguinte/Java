@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <ShowTypes>false</ShowTypes>
+  <Version>2</Version>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="0">
+    <Name>main</Name>
+    <Signature>([Ljava/lang/String;)V</Signature>
+    <DeclaringType>main</DeclaringType>
+    <Depth>0</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>false</AutoSize>
+      <X>4</X>
+      <Y>25</Y>
+      <W>2029</W>
+      <H>758</H>
+    </Bounds>
+    <PanelSize>
+      <Key>java__lang__Object_LinkedView0</Key>
+      <Order>4</Order>
+      <W>2035</W>
+      <H>785</H>
+    </PanelSize>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local Heap` start</Expression>
+      <ViewerClass>java__lang__Object_LinkedView</ViewerClass>
+      <ViewerData>
+        <StructureData>
+          <Type>BTree</Type>
+          <ArrayElExp>#Integer.valueOf(_index_)</ArrayElExp>
+          <ArraySizeExp>_tree_.heap.length</ArraySizeExp>
+          <ArrayFieldNm>heap</ArrayFieldNm>
+          <WrapperExp>(_tree_.size &gt; 0)?1:-1</WrapperExp>
+          <LeftLnkExp>(_tree_.size &gt;= 2 * _node_)? 2 * _node_:-1</LeftLnkExp>
+          <RightLnkExp>(_tree_.size &gt;= 2 * _node_ + 1)? 2 * _node_ + 1:-1</RightLnkExp>
+          <ValueExp>_tree_.heap[_node_]</ValueExp>
+          <TextExp>_value_</TextExp>
+        </StructureData>
+        <StructureFields>
+          <Field>
+            <Name>heapSize</Name>
+          </Field>
+          <Field>
+            <Name>size</Name>
+          </Field>
+        </StructureFields>
+        <ViewData>
+          <Scale>19</Scale>
+          <Width>64</Width>
+          <Simple>true</Simple>
+          <Animate>false</Animate>
+          <Delay>1400</Delay>
+        </ViewData>
+      </ViewerData>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>2024</W>
+    <H>896</H>
+  </Size>
+  <ISize>
+    <W>1487</W>
+    <H>604</H>
+  </ISize>
+  <ESize>
+    <W>2024</W>
+    <H>896</H>
+  </ESize>
+</Canvas>
